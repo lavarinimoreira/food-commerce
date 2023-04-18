@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container } from './styles';
+import { NavLink } from 'react-router-dom';
 
 import { ReactComponent as BurgerIcon } from '../../assets/burger.svg';
 import { ReactComponent as PizzaIcon } from '../../assets/pizza.svg';
@@ -23,28 +24,28 @@ export default function Sidebar() {
             <nav>
                 <ul>
                     <li>
-                        <a href='#'>
+                        <NavLink to='/'>
                             <BurgerIcon />
                             <span>Burgers</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href='#'>
+                        <NavLink to='pizzas'>
                             <PizzaIcon />
                             <span>Pizzas</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href='#'>
+                        <NavLink to='drinks'>
                             <SodaIcon />
                             <span>Drinks</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href='#'>
+                        <NavLink to='desserts'>
                             <DessertIcon />
                             <span>Desserts</span>
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
