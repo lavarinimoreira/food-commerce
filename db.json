@@ -1,0 +1,197 @@
+{
+    "burgers": [
+        {
+            "id": 1,
+            "snack": "burger",
+            "name": "Mega",
+            "description": "The family-sized handmade stuffed with three succulent meats, cheese and bacon.",
+            "price": 25.5,
+            "image": "https://i.imgur.com/upjIUnG.jpg"
+        },
+        {
+            "id": 2,
+            "snack": "burger",
+            "name": "Extra Bacon",
+            "description": "Created for bacon lovers, it has in all its layers well-roasted bacon plus cheese and meat.",
+            "price": 23.5,
+            "image": "https://i.imgur.com/B4J04AJ.jpg"
+        },
+        {
+            "id": 3,
+            "snack": "burger",
+            "name": "Traditional",
+            "description": "Simple is also delicious, especially if it involves our handmade meat and cheese.",
+            "price": 12,
+            "image": "https://i.imgur.com/Jz506jB.jpg"
+        },
+        {
+            "id": 4,
+            "snack": "burger",
+            "name": "Big",
+            "description": "A 4cm high quality handmade meat and a complete salad with lettuce, onion, tomato and others.",
+            "price": 18.0,
+            "image": "https://i.imgur.com/bF8EdBb.jpg"
+        },
+        {
+            "id": 5,
+            "snack": "burger",
+            "name": "Double",
+            "description": "Have you ever thought about eating that sandwich with double and tasty meat, stuffed with cheese, sauce and salad? So you thought exactly about that burger.",
+            "price": 20,
+            "image": "https://i.imgur.com/fdEY2kY.jpg"
+        }
+    ],
+
+    "pizzas": [
+        {
+            "id": 1,
+            "snack": "pizza",
+            "name": "Pepperoni",
+            "description": "Pizza stuffed with pepperoni, onion, mozzarella, oregano and olive, with a border stuffed with catupiry.",
+            "price": 25,
+            "image": "https://i.imgur.com/5rjJGkV.jpg"
+        },
+        {
+            "id": 2,
+            "snack": "pizza",
+            "name": "Portuguesa",
+            "description": "Pizza stuffed with ham, mozzarella, egg, onion, olive, oregano, tomato and tomato sauce, with a border stuffed with catupiry.",
+            "price": 28.5,
+            "image": "https://i.imgur.com/WCoyGoI.png"
+        },
+        {
+            "id": 3,
+            "snack": "pizza",
+            "name": "Chicken",
+            "description": "Pizza stuffed with chicken, catupiry and broccoli, with a border stuffed with catupiry.",
+            "price": 24,
+            "image": "https://i.imgur.com/BuXrO8d.jpg"
+        },
+        {
+            "id": 4,
+            "snack": "pizza",
+            "name": "Neapolitan",
+            "description": "Pizza stuffed with cheese, mozzarella, tomato and cabbage, with a border stuffed with catupiry.",
+            "price": 30,
+            "image": "https://i.imgur.com/u3DfvCE.jpg"
+        },
+        {
+            "id": 5,
+            "snack": "pizza",
+            "name": "Mozzarella",
+            "description": "Pizza stuffed with mozzarella, with a border stuffed with catupiry.",
+            "price": 20.5,
+            "image": "https://i.imgur.com/kPNXpa0.jpg"
+        },
+        {
+            "id": 6,
+            "snack": "pizza",
+            "name": "Marguerita",
+            "description": "Pizza stuffed with pepperoni, mozzarella, onion, olives and oregano, with a border stuffed with catupiry.",
+            "price": 25.5,
+            "image": "https://i.imgur.com/AsEfsZN.jpg"
+        },
+        {
+            "id": 7,
+            "snack": "pizza",
+            "name": "Chocolate Strawberry",
+            "description": "Sweet pizza stuffed with chocolate and strawberry.",
+            "price": 35.0,
+            "image": "https://i.imgur.com/43yC2Ap.jpg"
+        },
+        {
+            "id": 8,
+            "snack": "pizza",
+            "name": "Banana",
+            "description": "Sweet pizza stuffed with banana and condensed milk.",
+            "price": 33.5,
+            "image": "https://i.imgur.com/Pcrgg1P.jpg"
+        },
+        {
+            "id": 9,
+            "snack": "pizza",
+            "name": "Chocolate",
+            "description": "Sweet pizza stuffed with chocolate and chocolate balls.",
+            "price": 30,
+            "image": "https://i.imgur.com/RahAKkH.jpg"
+        }
+    ],
+
+    "drinks": [
+        {
+            "id": 1,
+            "snack": "drink",
+            "name": "Coke",
+            "description": "The traditional Coca-Cola that everyone loves.",
+            "price": 12,
+            "image": "https://i.imgur.com/Lg3aKhf.jpg"
+        },
+        {
+            "id": 2,
+            "snack": "drink",
+            "name": "Guaraná Antarctica",
+            "description": "The irresistible and tasty Guaraná Antarctica in its tin version.",
+            "price": 6.5,
+            "image": "https://i.imgur.com/hOBrOIm.jpg"
+        },
+        {
+            "id": 3,
+            "snack": "drink",
+            "name": "Pineapple Juice",
+            "description": "Natural pineapple juice with slight increments of some vegetables to strengthen your health.",
+            "price": 8,
+            "image": "https://i.imgur.com/VV9qTMh.jpg"
+        },
+        {
+            "id": 4,
+            "snack": "drink",
+            "name": "Orange Juice",
+            "description": "Natural orange juice for you who love this fruit.",
+            "price": 8,
+            "image": "https://i.imgur.com/2Lf2gHy.jpg"
+        }
+    ],
+
+    "desserts": [
+        {
+            "id": 1,
+            "snack": "ice-cream",
+            "name": "Casquinha",
+            "description": "The crispy and tasty cone that our customers love.",
+            "price": 4.5,
+            "image": "https://i.imgur.com/YGmeoCm.jpg"
+        },
+        {
+            "id": 2,
+            "snack": "ice-cream",
+            "name": "Chocolate Sprinkles",
+            "description": "Chocolate ice cream with chocolate sprinkles for your enjoyment.",
+            "price": 6,
+            "image": "https://i.imgur.com/osAHOLe.jpg"
+        },
+        {
+            "id": 3,
+            "snack": "ice-cream",
+            "name": "Flakes",
+            "description": "The traditional flakes come with chocolate coating to sweeten your day.",
+            "price": 7,
+            "image": "https://i.imgur.com/qgnFLiy.jpg"
+        },
+        {
+            "id": 4,
+            "snack": "ice-cream",
+            "name": "Cream",
+            "description": "The simple cream ice cream with an irresistible taste.",
+            "price": 6.5,
+            "image": "https://i.imgur.com/dFLysrT.jpg"
+        },
+        {
+            "id": 5,
+            "snack": "ice-cream",
+            "name": "Strawberry",
+            "description": "The classic strawberry ice cream that makes everything lighter.",
+            "price": 10,
+            "image": "https://i.imgur.com/0TWnEI7.jpg"
+        }
+    ]
+}

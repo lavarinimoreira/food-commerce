@@ -29,11 +29,12 @@ export const Container = styled.div`
             width: 100%;
             height: 11.25rem;
             border-radius: 4px;
-            margin: 0 0 3.75rem 0;
+            margin: 0 0 1.75rem 0;
         }
 
         p {
             font-size: 0.875rem;
+            height: 4rem;
         }
 
         div {
