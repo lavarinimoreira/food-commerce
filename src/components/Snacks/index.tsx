@@ -4,12 +4,15 @@ import { Container } from './styles';
 import { currentFormat } from '../../helpers/currencyFormat';
 import SkeletonSnack from '../Sidebar/SkeletonSnack';
 import { SnackData } from '../../interfaces/SnackData';
+import { useCart } from '../../hooks/useCart';
 
 interface SnacksProps {
     snacks: SnackData[];
 }
 
 export default function Snacks({ snacks }: SnacksProps) {
+    const { addSnackIntoCart } = useCart();
+
     return (
         <Container>
             {!snacks.length
@@ -21,7 +24,7 @@ export default function Snacks({ snacks }: SnacksProps) {
                           <p>{snack.description}</p>
                           <div>
                               <strong>{currentFormat(snack.price)}</strong>
-                              <button type='button'>
+                              <button type='button' onClick={() => addSnackIntoCart(snack)}>
                                   <FiPlus />
                               </button>
                           </div>

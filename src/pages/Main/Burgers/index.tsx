@@ -9,8 +9,8 @@ export default function Burgers() {
 
     return (
         <>
-            <Head title='Hambúrgueres' />
-            <SnackTitle>Hambúrgueres</SnackTitle>
+            <Head title='Burgers' />
+            <SnackTitle>Burgers</SnackTitle>
             <Snacks snacks={burgers}></Snacks>
         </>
     );
