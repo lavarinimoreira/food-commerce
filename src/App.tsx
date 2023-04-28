@@ -1,4 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { SnackProvider } from './contexts/SnackContext';
 
@@ -17,6 +19,7 @@ export default function App() {
                     <CartProvider>
                         <AppRoutes />
                         <GlobalStyle />
+                        <ToastContainer autoClose={2000} />
                         <Normalize />
                     </CartProvider>
                 </SnackProvider>
